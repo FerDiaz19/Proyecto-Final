@@ -1,0 +1,2300 @@
+[
+{
+    "type": "header",
+    "version": "5.2.1",
+    "comment": "Export to JSON plugin for PHPMyAdmin"
+},
+{
+    "type": "database",
+    "name": "lockers"
+},
+{
+    "type": "table",
+    "name": "apartado",
+    "database": "lockers",
+    "data": 
+[
+{
+    "numero": "1",
+    "fecha_reserva": "2024-02-07",
+    "fecha_vencimineto_pago": "2024-02-09",
+    "estado": "Vencido",
+    "solicitante": "105",
+    "locker": "21"
+},
+{
+    "numero": "2",
+    "fecha_reserva": "2024-02-15",
+    "fecha_vencimineto_pago": "2024-02-17",
+    "estado": "Pendiente",
+    "solicitante": "105",
+    "locker": "61"
+}
+]
+
+}
+,{
+    "type": "table",
+    "name": "departamento",
+    "database": "lockers",
+    "data": 
+[
+{
+    "codigo": "ADMIN",
+    "descripcion": "Administración."
+},
+{
+    "codigo": "COMPR",
+    "descripcion": "Compras."
+},
+{
+    "codigo": "CONT",
+    "descripcion": "Contabilidad."
+},
+{
+    "codigo": "FIN",
+    "descripcion": "Finanzas."
+},
+{
+    "codigo": "INVS",
+    "descripcion": "Investigación y Desarrollo."
+},
+{
+    "codigo": "LOG",
+    "descripcion": "Logística y Distribución."
+},
+{
+    "codigo": "MKT",
+    "descripcion": "Ventas y Marketing."
+},
+{
+    "codigo": "RH",
+    "descripcion": "Recursos Humanos"
+},
+{
+    "codigo": "SST",
+    "descripcion": "Seguridad y Salud en el Trabajo."
+},
+{
+    "codigo": "TI",
+    "descripcion": "Tecnología de la Información."
+}
+]
+
+}
+,{
+    "type": "table",
+    "name": "estatus",
+    "database": "lockers",
+    "data": 
+[
+{
+    "numero": "0",
+    "descripcion": "No disponible."
+},
+{
+    "numero": "1",
+    "descripcion": "Disponible."
+}
+]
+
+}
+,{
+    "type": "table",
+    "name": "lockers",
+    "database": "lockers",
+    "data": 
+[
+{
+    "numero": "1",
+    "nameLocker": "01",
+    "observaciones": "Buen estado",
+    "ubicacion": "TRANS",
+    "size": "2",
+    "estatus": "1",
+    "rentaLocker": "Inactiva"
+},
+{
+    "numero": "2",
+    "nameLocker": "02",
+    "observaciones": "Buen estado",
+    "ubicacion": "TRANS",
+    "size": "2",
+    "estatus": "1",
+    "rentaLocker": "Inactiva"
+},
+{
+    "numero": "3",
+    "nameLocker": "03",
+    "observaciones": "Buen estado",
+    "ubicacion": "TRANS",
+    "size": "2",
+    "estatus": "1",
+    "rentaLocker": "Inactiva"
+},
+{
+    "numero": "4",
+    "nameLocker": "04",
+    "observaciones": "Buen estado",
+    "ubicacion": "TRANS",
+    "size": "2",
+    "estatus": "1",
+    "rentaLocker": "Inactiva"
+},
+{
+    "numero": "5",
+    "nameLocker": "05",
+    "observaciones": "Buen estado",
+    "ubicacion": "TRANS",
+    "size": "2",
+    "estatus": "1",
+    "rentaLocker": "Inactiva"
+},
+{
+    "numero": "6",
+    "nameLocker": "06",
+    "observaciones": "Buen estado",
+    "ubicacion": "TRANS",
+    "size": "2",
+    "estatus": "1",
+    "rentaLocker": "Inactiva"
+},
+{
+    "numero": "7",
+    "nameLocker": "07",
+    "observaciones": "Buen estado",
+    "ubicacion": "TRANS",
+    "size": "2",
+    "estatus": "1",
+    "rentaLocker": "Inactiva"
+},
+{
+    "numero": "8",
+    "nameLocker": "08",
+    "observaciones": "Buen estado",
+    "ubicacion": "TRANS",
+    "size": "1",
+    "estatus": "1",
+    "rentaLocker": "Inactiva"
+},
+{
+    "numero": "9",
+    "nameLocker": "09",
+    "observaciones": "Buen estado",
+    "ubicacion": "TRANS",
+    "size": "1",
+    "estatus": "1",
+    "rentaLocker": "Inactiva"
+},
+{
+    "numero": "10",
+    "nameLocker": "10",
+    "observaciones": "Buen estado",
+    "ubicacion": "TRANS",
+    "size": "1",
+    "estatus": "1",
+    "rentaLocker": "Inactiva"
+},
+{
+    "numero": "11",
+    "nameLocker": "01",
+    "observaciones": "Buen estado",
+    "ubicacion": "PROD",
+    "size": "2",
+    "estatus": "1",
+    "rentaLocker": "Inactiva"
+},
+{
+    "numero": "12",
+    "nameLocker": "02",
+    "observaciones": "Buen estado",
+    "ubicacion": "PROD",
+    "size": "2",
+    "estatus": "1",
+    "rentaLocker": "Inactiva"
+},
+{
+    "numero": "13",
+    "nameLocker": "03",
+    "observaciones": "Buen estado",
+    "ubicacion": "PROD",
+    "size": "2",
+    "estatus": "1",
+    "rentaLocker": "Inactiva"
+},
+{
+    "numero": "14",
+    "nameLocker": "04",
+    "observaciones": "Buen estado",
+    "ubicacion": "PROD",
+    "size": "2",
+    "estatus": "1",
+    "rentaLocker": "Inactiva"
+},
+{
+    "numero": "15",
+    "nameLocker": "05",
+    "observaciones": "Buen estado",
+    "ubicacion": "PROD",
+    "size": "2",
+    "estatus": "1",
+    "rentaLocker": "Inactiva"
+},
+{
+    "numero": "16",
+    "nameLocker": "06",
+    "observaciones": "Buen estado",
+    "ubicacion": "PROD",
+    "size": "2",
+    "estatus": "1",
+    "rentaLocker": "Inactiva"
+},
+{
+    "numero": "17",
+    "nameLocker": "07",
+    "observaciones": "Buen estado",
+    "ubicacion": "PROD",
+    "size": "2",
+    "estatus": "1",
+    "rentaLocker": "Inactiva"
+},
+{
+    "numero": "18",
+    "nameLocker": "08",
+    "observaciones": "Buen estado",
+    "ubicacion": "PROD",
+    "size": "1",
+    "estatus": "1",
+    "rentaLocker": "Inactiva"
+},
+{
+    "numero": "19",
+    "nameLocker": "09",
+    "observaciones": "Buen estado",
+    "ubicacion": "PROD",
+    "size": "1",
+    "estatus": "1",
+    "rentaLocker": "Inactiva"
+},
+{
+    "numero": "20",
+    "nameLocker": "10",
+    "observaciones": "Buen estado",
+    "ubicacion": "PROD",
+    "size": "1",
+    "estatus": "1",
+    "rentaLocker": "Inactiva"
+},
+{
+    "numero": "21",
+    "nameLocker": "01",
+    "observaciones": "Buen estado",
+    "ubicacion": "ALM",
+    "size": "2",
+    "estatus": "1",
+    "rentaLocker": "Activa"
+},
+{
+    "numero": "22",
+    "nameLocker": "02",
+    "observaciones": "Buen estado",
+    "ubicacion": "ALM",
+    "size": "2",
+    "estatus": "1",
+    "rentaLocker": "Inactiva"
+},
+{
+    "numero": "23",
+    "nameLocker": "03",
+    "observaciones": "Buen estado",
+    "ubicacion": "ALM",
+    "size": "2",
+    "estatus": "1",
+    "rentaLocker": "Inactiva"
+},
+{
+    "numero": "24",
+    "nameLocker": "04",
+    "observaciones": "Buen estado",
+    "ubicacion": "ALM",
+    "size": "2",
+    "estatus": "1",
+    "rentaLocker": "Inactiva"
+},
+{
+    "numero": "25",
+    "nameLocker": "05",
+    "observaciones": "Buen estado",
+    "ubicacion": "ALM",
+    "size": "2",
+    "estatus": "1",
+    "rentaLocker": "Inactiva"
+},
+{
+    "numero": "26",
+    "nameLocker": "06",
+    "observaciones": "Buen estado",
+    "ubicacion": "ALM",
+    "size": "2",
+    "estatus": "1",
+    "rentaLocker": "Inactiva"
+},
+{
+    "numero": "27",
+    "nameLocker": "07",
+    "observaciones": "Buen estado",
+    "ubicacion": "ALM",
+    "size": "2",
+    "estatus": "1",
+    "rentaLocker": "Inactiva"
+},
+{
+    "numero": "28",
+    "nameLocker": "08",
+    "observaciones": "Buen estado",
+    "ubicacion": "ALM",
+    "size": "1",
+    "estatus": "1",
+    "rentaLocker": "Inactiva"
+},
+{
+    "numero": "29",
+    "nameLocker": "09",
+    "observaciones": "Buen estado",
+    "ubicacion": "ALM",
+    "size": "1",
+    "estatus": "1",
+    "rentaLocker": "Inactiva"
+},
+{
+    "numero": "30",
+    "nameLocker": "10",
+    "observaciones": "Buen estado",
+    "ubicacion": "ALM",
+    "size": "1",
+    "estatus": "1",
+    "rentaLocker": "Inactiva"
+},
+{
+    "numero": "31",
+    "nameLocker": "01",
+    "observaciones": "Buen estado",
+    "ubicacion": "MANT",
+    "size": "2",
+    "estatus": "1",
+    "rentaLocker": "Inactiva"
+},
+{
+    "numero": "32",
+    "nameLocker": "02",
+    "observaciones": "Buen estado",
+    "ubicacion": "MANT",
+    "size": "2",
+    "estatus": "1",
+    "rentaLocker": "Inactiva"
+},
+{
+    "numero": "33",
+    "nameLocker": "03",
+    "observaciones": "Buen estado",
+    "ubicacion": "MANT",
+    "size": "2",
+    "estatus": "1",
+    "rentaLocker": "Inactiva"
+},
+{
+    "numero": "34",
+    "nameLocker": "04",
+    "observaciones": "Buen estado",
+    "ubicacion": "MANT",
+    "size": "2",
+    "estatus": "1",
+    "rentaLocker": "Inactiva"
+},
+{
+    "numero": "35",
+    "nameLocker": "05",
+    "observaciones": "Buen estado",
+    "ubicacion": "MANT",
+    "size": "2",
+    "estatus": "1",
+    "rentaLocker": "Inactiva"
+},
+{
+    "numero": "36",
+    "nameLocker": "06",
+    "observaciones": "Buen estado",
+    "ubicacion": "MANT",
+    "size": "2",
+    "estatus": "1",
+    "rentaLocker": "Inactiva"
+},
+{
+    "numero": "37",
+    "nameLocker": "07",
+    "observaciones": "Buen estado",
+    "ubicacion": "MANT",
+    "size": "2",
+    "estatus": "1",
+    "rentaLocker": "Inactiva"
+},
+{
+    "numero": "38",
+    "nameLocker": "08",
+    "observaciones": "Buen estado",
+    "ubicacion": "MANT",
+    "size": "1",
+    "estatus": "1",
+    "rentaLocker": "Inactiva"
+},
+{
+    "numero": "39",
+    "nameLocker": "09",
+    "observaciones": "Buen estado",
+    "ubicacion": "MANT",
+    "size": "1",
+    "estatus": "1",
+    "rentaLocker": "Inactiva"
+},
+{
+    "numero": "40",
+    "nameLocker": "10",
+    "observaciones": "Buen estado",
+    "ubicacion": "MANT",
+    "size": "1",
+    "estatus": "1",
+    "rentaLocker": "Inactiva"
+},
+{
+    "numero": "41",
+    "nameLocker": "01",
+    "observaciones": "Buen estado",
+    "ubicacion": "LOGIS",
+    "size": "2",
+    "estatus": "1",
+    "rentaLocker": "Inactiva"
+},
+{
+    "numero": "42",
+    "nameLocker": "02",
+    "observaciones": "Buen estado",
+    "ubicacion": "LOGIS",
+    "size": "2",
+    "estatus": "1",
+    "rentaLocker": "Inactiva"
+},
+{
+    "numero": "43",
+    "nameLocker": "03",
+    "observaciones": "Buen estado",
+    "ubicacion": "LOGIS",
+    "size": "2",
+    "estatus": "1",
+    "rentaLocker": "Inactiva"
+},
+{
+    "numero": "44",
+    "nameLocker": "04",
+    "observaciones": "Buen estado",
+    "ubicacion": "LOGIS",
+    "size": "2",
+    "estatus": "1",
+    "rentaLocker": "Inactiva"
+},
+{
+    "numero": "45",
+    "nameLocker": "05",
+    "observaciones": "Buen estado",
+    "ubicacion": "LOGIS",
+    "size": "2",
+    "estatus": "1",
+    "rentaLocker": "Inactiva"
+},
+{
+    "numero": "46",
+    "nameLocker": "06",
+    "observaciones": "Buen estado",
+    "ubicacion": "LOGIS",
+    "size": "1",
+    "estatus": "1",
+    "rentaLocker": "Inactiva"
+},
+{
+    "numero": "47",
+    "nameLocker": "07",
+    "observaciones": "Buen estado",
+    "ubicacion": "LOGIS",
+    "size": "1",
+    "estatus": "1",
+    "rentaLocker": "Inactiva"
+},
+{
+    "numero": "48",
+    "nameLocker": "08",
+    "observaciones": "Buen estado",
+    "ubicacion": "LOGIS",
+    "size": "1",
+    "estatus": "1",
+    "rentaLocker": "Inactiva"
+},
+{
+    "numero": "49",
+    "nameLocker": "09",
+    "observaciones": "Buen estado",
+    "ubicacion": "LOGIS",
+    "size": "1",
+    "estatus": "1",
+    "rentaLocker": "Inactiva"
+},
+{
+    "numero": "50",
+    "nameLocker": "10",
+    "observaciones": "Buen estado",
+    "ubicacion": "LOGIS",
+    "size": "1",
+    "estatus": "1",
+    "rentaLocker": "Inactiva"
+},
+{
+    "numero": "51",
+    "nameLocker": "01",
+    "observaciones": "Buen estado",
+    "ubicacion": "SERV",
+    "size": "1",
+    "estatus": "1",
+    "rentaLocker": "Inactiva"
+},
+{
+    "numero": "52",
+    "nameLocker": "02",
+    "observaciones": "Buen estado",
+    "ubicacion": "SERV",
+    "size": "1",
+    "estatus": "1",
+    "rentaLocker": "Inactiva"
+},
+{
+    "numero": "53",
+    "nameLocker": "03",
+    "observaciones": "Buen estado",
+    "ubicacion": "SERV",
+    "size": "1",
+    "estatus": "1",
+    "rentaLocker": "Inactiva"
+},
+{
+    "numero": "54",
+    "nameLocker": "04",
+    "observaciones": "Buen estado",
+    "ubicacion": "SERV",
+    "size": "1",
+    "estatus": "1",
+    "rentaLocker": "Inactiva"
+},
+{
+    "numero": "55",
+    "nameLocker": "05",
+    "observaciones": "Buen estado",
+    "ubicacion": "SERV",
+    "size": "1",
+    "estatus": "1",
+    "rentaLocker": "Inactiva"
+},
+{
+    "numero": "56",
+    "nameLocker": "06",
+    "observaciones": "Buen estado",
+    "ubicacion": "SERV",
+    "size": "1",
+    "estatus": "1",
+    "rentaLocker": "Inactiva"
+},
+{
+    "numero": "57",
+    "nameLocker": "07",
+    "observaciones": "Buen estado",
+    "ubicacion": "SERV",
+    "size": "1",
+    "estatus": "1",
+    "rentaLocker": "Inactiva"
+},
+{
+    "numero": "58",
+    "nameLocker": "08",
+    "observaciones": "Buen estado",
+    "ubicacion": "SERV",
+    "size": "2",
+    "estatus": "1",
+    "rentaLocker": "Inactiva"
+},
+{
+    "numero": "59",
+    "nameLocker": "09",
+    "observaciones": "Buen estado",
+    "ubicacion": "SERV",
+    "size": "2",
+    "estatus": "1",
+    "rentaLocker": "Inactiva"
+},
+{
+    "numero": "60",
+    "nameLocker": "10",
+    "observaciones": "Buen estado",
+    "ubicacion": "SERV",
+    "size": "2",
+    "estatus": "1",
+    "rentaLocker": "Inactiva"
+},
+{
+    "numero": "61",
+    "nameLocker": "01",
+    "observaciones": "Buen estado",
+    "ubicacion": "INGEN",
+    "size": "2",
+    "estatus": "0",
+    "rentaLocker": "Inactiva"
+},
+{
+    "numero": "62",
+    "nameLocker": "02",
+    "observaciones": "Buen estado",
+    "ubicacion": "INGEN",
+    "size": "2",
+    "estatus": "1",
+    "rentaLocker": "Inactiva"
+},
+{
+    "numero": "63",
+    "nameLocker": "03",
+    "observaciones": "Buen estado",
+    "ubicacion": "INGEN",
+    "size": "2",
+    "estatus": "1",
+    "rentaLocker": "Inactiva"
+},
+{
+    "numero": "64",
+    "nameLocker": "04",
+    "observaciones": "Buen estado",
+    "ubicacion": "INGEN",
+    "size": "2",
+    "estatus": "1",
+    "rentaLocker": "Inactiva"
+},
+{
+    "numero": "65",
+    "nameLocker": "05",
+    "observaciones": "Buen estado",
+    "ubicacion": "INGEN",
+    "size": "2",
+    "estatus": "1",
+    "rentaLocker": "Inactiva"
+},
+{
+    "numero": "66",
+    "nameLocker": "06",
+    "observaciones": "Buen estado",
+    "ubicacion": "INGEN",
+    "size": "2",
+    "estatus": "1",
+    "rentaLocker": "Inactiva"
+},
+{
+    "numero": "67",
+    "nameLocker": "07",
+    "observaciones": "Buen estado",
+    "ubicacion": "INGEN",
+    "size": "2",
+    "estatus": "1",
+    "rentaLocker": "Inactiva"
+},
+{
+    "numero": "68",
+    "nameLocker": "08",
+    "observaciones": "Buen estado",
+    "ubicacion": "INGEN",
+    "size": "1",
+    "estatus": "1",
+    "rentaLocker": "Inactiva"
+},
+{
+    "numero": "69",
+    "nameLocker": "09",
+    "observaciones": "Buen estado",
+    "ubicacion": "INGEN",
+    "size": "1",
+    "estatus": "1",
+    "rentaLocker": "Inactiva"
+},
+{
+    "numero": "70",
+    "nameLocker": "10",
+    "observaciones": "Buen estado",
+    "ubicacion": "INGEN",
+    "size": "1",
+    "estatus": "1",
+    "rentaLocker": "Inactiva"
+},
+{
+    "numero": "71",
+    "nameLocker": "01",
+    "observaciones": "Buen estado",
+    "ubicacion": "SEGU",
+    "size": "2",
+    "estatus": "1",
+    "rentaLocker": "Inactiva"
+},
+{
+    "numero": "72",
+    "nameLocker": "02",
+    "observaciones": "Buen estado",
+    "ubicacion": "SEGU",
+    "size": "2",
+    "estatus": "1",
+    "rentaLocker": "Inactiva"
+},
+{
+    "numero": "73",
+    "nameLocker": "03",
+    "observaciones": "Buen estado",
+    "ubicacion": "SEGU",
+    "size": "2",
+    "estatus": "1",
+    "rentaLocker": "Inactiva"
+},
+{
+    "numero": "74",
+    "nameLocker": "04",
+    "observaciones": "Buen estado",
+    "ubicacion": "SEGU",
+    "size": "2",
+    "estatus": "1",
+    "rentaLocker": "Inactiva"
+},
+{
+    "numero": "75",
+    "nameLocker": "05",
+    "observaciones": "Buen estado",
+    "ubicacion": "SEGU",
+    "size": "2",
+    "estatus": "1",
+    "rentaLocker": "Inactiva"
+},
+{
+    "numero": "76",
+    "nameLocker": "06",
+    "observaciones": "Buen estado",
+    "ubicacion": "SEGU",
+    "size": "1",
+    "estatus": "1",
+    "rentaLocker": "Inactiva"
+},
+{
+    "numero": "77",
+    "nameLocker": "07",
+    "observaciones": "Buen estado",
+    "ubicacion": "SEGU",
+    "size": "1",
+    "estatus": "1",
+    "rentaLocker": "Inactiva"
+},
+{
+    "numero": "78",
+    "nameLocker": "08",
+    "observaciones": "Buen estado",
+    "ubicacion": "SEGU",
+    "size": "1",
+    "estatus": "1",
+    "rentaLocker": "Inactiva"
+},
+{
+    "numero": "79",
+    "nameLocker": "09",
+    "observaciones": "Buen estado",
+    "ubicacion": "SEGU",
+    "size": "1",
+    "estatus": "1",
+    "rentaLocker": "Inactiva"
+},
+{
+    "numero": "80",
+    "nameLocker": "10",
+    "observaciones": "Buen estado",
+    "ubicacion": "SEGU",
+    "size": "1",
+    "estatus": "1",
+    "rentaLocker": "Inactiva"
+},
+{
+    "numero": "81",
+    "nameLocker": "01",
+    "observaciones": "Buen estado",
+    "ubicacion": "OFADM",
+    "size": "2",
+    "estatus": "1",
+    "rentaLocker": "Inactiva"
+},
+{
+    "numero": "82",
+    "nameLocker": "02",
+    "observaciones": "Buen estado",
+    "ubicacion": "OFADM",
+    "size": "2",
+    "estatus": "1",
+    "rentaLocker": "Inactiva"
+},
+{
+    "numero": "83",
+    "nameLocker": "03",
+    "observaciones": "Buen estado",
+    "ubicacion": "OFADM",
+    "size": "2",
+    "estatus": "1",
+    "rentaLocker": "Inactiva"
+},
+{
+    "numero": "84",
+    "nameLocker": "04",
+    "observaciones": "Buen estado",
+    "ubicacion": "OFADM",
+    "size": "2",
+    "estatus": "1",
+    "rentaLocker": "Inactiva"
+},
+{
+    "numero": "85",
+    "nameLocker": "05",
+    "observaciones": "Buen estado",
+    "ubicacion": "OFADM",
+    "size": "2",
+    "estatus": "1",
+    "rentaLocker": "Inactiva"
+},
+{
+    "numero": "86",
+    "nameLocker": "06",
+    "observaciones": "Buen estado",
+    "ubicacion": "OFADM",
+    "size": "1",
+    "estatus": "1",
+    "rentaLocker": "Inactiva"
+},
+{
+    "numero": "87",
+    "nameLocker": "07",
+    "observaciones": "Buen estado",
+    "ubicacion": "OFADM",
+    "size": "1",
+    "estatus": "1",
+    "rentaLocker": "Inactiva"
+},
+{
+    "numero": "88",
+    "nameLocker": "08",
+    "observaciones": "Buen estado",
+    "ubicacion": "OFADM",
+    "size": "1",
+    "estatus": "1",
+    "rentaLocker": "Inactiva"
+},
+{
+    "numero": "89",
+    "nameLocker": "09",
+    "observaciones": "Buen estado",
+    "ubicacion": "OFADM",
+    "size": "1",
+    "estatus": "1",
+    "rentaLocker": "Inactiva"
+},
+{
+    "numero": "90",
+    "nameLocker": "10",
+    "observaciones": "Buen estado",
+    "ubicacion": "OFADM",
+    "size": "1",
+    "estatus": "1",
+    "rentaLocker": "Inactiva"
+}
+]
+
+}
+,{
+    "type": "table",
+    "name": "metodo_de_pago",
+    "database": "lockers",
+    "data": 
+[
+{
+    "numero": "1",
+    "moneda": "MEX",
+    "descripcion": "Pago con efectivo."
+},
+{
+    "numero": "2",
+    "moneda": "USA",
+    "descripcion": "Pago con efectivo."
+},
+{
+    "numero": "3",
+    "moneda": "MEX",
+    "descripcion": "Pago con tarjeta."
+},
+{
+    "numero": "4",
+    "moneda": "USA",
+    "descripcion": "Pago con tarjeta."
+}
+]
+
+}
+,{
+    "type": "table",
+    "name": "pago",
+    "database": "lockers",
+    "data": 
+[
+{
+    "numero": "1",
+    "monto": "200",
+    "fecha_Pago": "2024-02-07",
+    "metodo_pago": "3",
+    "apartado": "1"
+}
+]
+
+}
+,{
+    "type": "table",
+    "name": "puesto",
+    "database": "lockers",
+    "data": 
+[
+{
+    "numero": "1",
+    "nombre": "Operario."
+},
+{
+    "numero": "2",
+    "nombre": "Supervisor de Producción."
+},
+{
+    "numero": "3",
+    "nombre": "Técnico de Mantenimiento."
+},
+{
+    "numero": "4",
+    "nombre": "Inspector de Calidad."
+},
+{
+    "numero": "5",
+    "nombre": "Jefe de Línea."
+},
+{
+    "numero": "6",
+    "nombre": "Operador de Máquina."
+},
+{
+    "numero": "7",
+    "nombre": "Almacenero."
+},
+{
+    "numero": "8",
+    "nombre": "Gerente de Recursos Humanos."
+},
+{
+    "numero": "9",
+    "nombre": "Ingeniero de Procesos."
+},
+{
+    "numero": "10",
+    "nombre": "Analistas de Costos."
+}
+]
+
+}
+,{
+    "type": "table",
+    "name": "renta",
+    "database": "lockers",
+    "data": 
+[
+{
+    "numero": "1",
+    "fecha_inicio": "2024-02-07",
+    "fecha_vencimineto_pago": "2024-03-08",
+    "estado": "Activa",
+    "apartado": "1",
+    "locker": "21",
+    "solicitante": "105"
+}
+]
+
+}
+,{
+    "type": "table",
+    "name": "roles",
+    "database": "lockers",
+    "data": 
+[
+{
+    "codigo": "A",
+    "descripcion": "Administrador."
+},
+{
+    "codigo": "C",
+    "descripcion": "Usuario."
+}
+]
+
+}
+,{
+    "type": "table",
+    "name": "size",
+    "database": "lockers",
+    "data": 
+[
+{
+    "numero": "1",
+    "precio": "100",
+    "descripcion": "Chico",
+    "dimensiones": "40cmX55cm"
+},
+{
+    "numero": "2",
+    "precio": "200",
+    "descripcion": "Grande",
+    "dimensiones": "50cmX70cm"
+}
+]
+
+}
+,{
+    "type": "table",
+    "name": "solicitante",
+    "database": "lockers",
+    "data": 
+[
+{
+    "numero": "1",
+    "nombre": "Juan",
+    "apPat": "López",
+    "apMat": "García",
+    "telefono": "664-123-4567",
+    "email": "juan.lopez@gmail.com",
+    "password": "password123",
+    "roles": "C",
+    "depto": "ADMIN"
+},
+{
+    "numero": "2",
+    "nombre": "Ana",
+    "apPat": "Martínez",
+    "apMat": "Pérez",
+    "telefono": "663-987-6543",
+    "email": "ana.martinez@gmail.com",
+    "password": "securepass",
+    "roles": "C",
+    "depto": "ADMIN"
+},
+{
+    "numero": "3",
+    "nombre": "Carlos",
+    "apPat": "Sánchez",
+    "apMat": "Rodríguez",
+    "telefono": "664-555-5555",
+    "email": "carlos.sanchez@gmail.com",
+    "password": "mypassword",
+    "roles": "C",
+    "depto": "ADMIN"
+},
+{
+    "numero": "4",
+    "nombre": "Luisa",
+    "apPat": "Gómez",
+    "apMat": "Fernández",
+    "telefono": "663-456-7890",
+    "email": "luisa.gomez@gmail.com",
+    "password": "pwd1234",
+    "roles": "C",
+    "depto": "ADMIN"
+},
+{
+    "numero": "5",
+    "nombre": "María",
+    "apPat": "Hernández",
+    "apMat": "Gutiérrez",
+    "telefono": "664-789-1234",
+    "email": "maria.hernandez@gmail.com",
+    "password": "abc123",
+    "roles": "C",
+    "depto": "ADMIN"
+},
+{
+    "numero": "6",
+    "nombre": "Roberto",
+    "apPat": "Pérez",
+    "apMat": "Soto",
+    "telefono": "663-321-6789",
+    "email": "roberto.perez@gmail.com",
+    "password": "passw0rd",
+    "roles": "C",
+    "depto": "ADMIN"
+},
+{
+    "numero": "7",
+    "nombre": "Laura",
+    "apPat": "García",
+    "apMat": "López",
+    "telefono": "664-234-5678",
+    "email": "laura.garcia@gmail.com",
+    "password": "password456",
+    "roles": "C",
+    "depto": "ADMIN"
+},
+{
+    "numero": "8",
+    "nombre": "Pedro",
+    "apPat": "Fernández",
+    "apMat": "Sánchez",
+    "telefono": "663-888-1234",
+    "email": "pedro.fernandez@gmail.com",
+    "password": "mypwd",
+    "roles": "C",
+    "depto": "ADMIN"
+},
+{
+    "numero": "9",
+    "nombre": "Isabel",
+    "apPat": "Soto",
+    "apMat": "Martínez",
+    "telefono": "664-654-9870",
+    "email": "isabel.soto@gmail.com",
+    "password": "secure123",
+    "roles": "C",
+    "depto": "ADMIN"
+},
+{
+    "numero": "10",
+    "nombre": "Javier",
+    "apPat": "Rodríguez",
+    "apMat": "Gómez",
+    "telefono": "664-987-9876",
+    "email": "javier.rodriguez@gmail.com",
+    "password": "12345",
+    "roles": "C",
+    "depto": "ADMIN"
+},
+{
+    "numero": "11",
+    "nombre": "Marcela",
+    "apPat": "García",
+    "apMat": "Hernández",
+    "telefono": "664-123-4567",
+    "email": "marcela.garcia@gmail.com",
+    "password": "password123",
+    "roles": "C",
+    "depto": "FIN"
+},
+{
+    "numero": "12",
+    "nombre": "Pedro",
+    "apPat": "Fernández",
+    "apMat": "Soto",
+    "telefono": "663-987-6543",
+    "email": "pedro.fernandez@gmail.com",
+    "password": "securepass",
+    "roles": "C",
+    "depto": "FIN"
+},
+{
+    "numero": "13",
+    "nombre": "Lorena",
+    "apPat": "Sánchez",
+    "apMat": "López",
+    "telefono": "664-555-5555",
+    "email": "lorena.sanchez@gmail.com",
+    "password": "mypassword",
+    "roles": "C",
+    "depto": "FIN"
+},
+{
+    "numero": "14",
+    "nombre": "Alejandro",
+    "apPat": "Martínez",
+    "apMat": "Gómez",
+    "telefono": "663-456-7890",
+    "email": "alejandro.martinez@gmail.com",
+    "password": "pwd1234",
+    "roles": "C",
+    "depto": "FIN"
+},
+{
+    "numero": "15",
+    "nombre": "Daniela",
+    "apPat": "Hernández",
+    "apMat": "Rodríguez",
+    "telefono": "664-789-1234",
+    "email": "daniela.hernandez@gmail.com",
+    "password": "abc123",
+    "roles": "C",
+    "depto": "FIN"
+},
+{
+    "numero": "16",
+    "nombre": "Roberto",
+    "apPat": "Pérez",
+    "apMat": "Soto",
+    "telefono": "663-321-6789",
+    "email": "roberto.perez@gmail.com",
+    "password": "passw0rd",
+    "roles": "C",
+    "depto": "FIN"
+},
+{
+    "numero": "17",
+    "nombre": "Sofía",
+    "apPat": "García",
+    "apMat": "López",
+    "telefono": "664-234-5678",
+    "email": "sofia.garcia@gmail.com",
+    "password": "password456",
+    "roles": "C",
+    "depto": "FIN"
+},
+{
+    "numero": "18",
+    "nombre": "Luis",
+    "apPat": "Fernández",
+    "apMat": "Sánchez",
+    "telefono": "663-888-1234",
+    "email": "luis.fernandez@gmail.com",
+    "password": "mypwd",
+    "roles": "C",
+    "depto": "FIN"
+},
+{
+    "numero": "19",
+    "nombre": "María",
+    "apPat": "Soto",
+    "apMat": "Martínez",
+    "telefono": "664-654-9870",
+    "email": "maria.soto@gmail.com",
+    "password": "secure123",
+    "roles": "C",
+    "depto": "FIN"
+},
+{
+    "numero": "20",
+    "nombre": "Carlos",
+    "apPat": "Rodríguez",
+    "apMat": "Gómez",
+    "telefono": "664-987-9876",
+    "email": "carlos.rodriguez@gmail.com",
+    "password": "12345",
+    "roles": "C",
+    "depto": "FIN"
+},
+{
+    "numero": "21",
+    "nombre": "Miguel",
+    "apPat": "González",
+    "apMat": "López",
+    "telefono": "664-123-4567",
+    "email": "miguel.gonzalez@gmail.com",
+    "password": "password123",
+    "roles": "C",
+    "depto": "RH"
+},
+{
+    "numero": "22",
+    "nombre": "Ana",
+    "apPat": "Rodríguez",
+    "apMat": "Sánchez",
+    "telefono": "663-987-6543",
+    "email": "ana.rodriguez@gmail.com",
+    "password": "securepass",
+    "roles": "C",
+    "depto": "RH"
+},
+{
+    "numero": "23",
+    "nombre": "Javier",
+    "apPat": "Hernández",
+    "apMat": "Martínez",
+    "telefono": "664-555-5555",
+    "email": "javier.hernandez@gmail.com",
+    "password": "mypassword",
+    "roles": "C",
+    "depto": "RH"
+},
+{
+    "numero": "24",
+    "nombre": "Isabel",
+    "apPat": "Soto",
+    "apMat": "Fernández",
+    "telefono": "663-456-7890",
+    "email": "isabel.soto@gmail.com",
+    "password": "pwd1234",
+    "roles": "C",
+    "depto": "RH"
+},
+{
+    "numero": "25",
+    "nombre": "Luisa",
+    "apPat": "Pérez",
+    "apMat": "Gómez",
+    "telefono": "664-789-1234",
+    "email": "luisa.perez@gmail.com",
+    "password": "abc123",
+    "roles": "C",
+    "depto": "RH"
+},
+{
+    "numero": "26",
+    "nombre": "Carlos",
+    "apPat": "Gómez",
+    "apMat": "Soto",
+    "telefono": "664-321-6789",
+    "email": "carlos.gomez@gmail.com",
+    "password": "passw0rd",
+    "roles": "C",
+    "depto": "RH"
+},
+{
+    "numero": "27",
+    "nombre": "Sofía",
+    "apPat": "Martínez",
+    "apMat": "López",
+    "telefono": "663-234-5678",
+    "email": "sofia.martinez@gmail.com",
+    "password": "password456",
+    "roles": "C",
+    "depto": "RH"
+},
+{
+    "numero": "28",
+    "nombre": "Fernando",
+    "apPat": "Sánchez",
+    "apMat": "Hernández",
+    "telefono": "664-888-1234",
+    "email": "fernando.sanchez@gmail.com",
+    "password": "mypwd",
+    "roles": "C",
+    "depto": "RH"
+},
+{
+    "numero": "29",
+    "nombre": "María",
+    "apPat": "López",
+    "apMat": "Rodríguez",
+    "telefono": "663-654-9870",
+    "email": "maria.lopez@gmail.com",
+    "password": "secure123",
+    "roles": "C",
+    "depto": "RH"
+},
+{
+    "numero": "30",
+    "nombre": "Andrés",
+    "apPat": "Fernández",
+    "apMat": "Soto",
+    "telefono": "664-987-9876",
+    "email": "andres.fernandez@gmail.com",
+    "password": "12345",
+    "roles": "C",
+    "depto": "RH"
+},
+{
+    "numero": "31",
+    "nombre": "Laura",
+    "apPat": "Hernández",
+    "apMat": "Gómez",
+    "telefono": "664-123-4567",
+    "email": "laura.hernandez@gmail.com",
+    "password": "password123",
+    "roles": "C",
+    "depto": "TI"
+},
+{
+    "numero": "32",
+    "nombre": "Diego",
+    "apPat": "López",
+    "apMat": "Sánchez",
+    "telefono": "663-987-6543",
+    "email": "diego.lopez@gmail.com",
+    "password": "securepass",
+    "roles": "C",
+    "depto": "TI"
+},
+{
+    "numero": "33",
+    "nombre": "María",
+    "apPat": "Gómez",
+    "apMat": "Pérez",
+    "telefono": "664-555-5555",
+    "email": "maria.gomez@gmail.com",
+    "password": "mypassword",
+    "roles": "C",
+    "depto": "TI"
+},
+{
+    "numero": "34",
+    "nombre": "Javier",
+    "apPat": "Pérez",
+    "apMat": "Fernández",
+    "telefono": "663-456-7890",
+    "email": "javier.perez@gmail.com",
+    "password": "pwd1234",
+    "roles": "C",
+    "depto": "TI"
+},
+{
+    "numero": "35",
+    "nombre": "Sofía",
+    "apPat": "Sánchez",
+    "apMat": "Martínez",
+    "telefono": "664-789-1234",
+    "email": "sofia.sanchez@gmail.com",
+    "password": "abc123",
+    "roles": "C",
+    "depto": "TI"
+},
+{
+    "numero": "36",
+    "nombre": "Carlos",
+    "apPat": "Martínez",
+    "apMat": "Rodríguez",
+    "telefono": "664-321-6789",
+    "email": "carlos.martinez@gmail.com",
+    "password": "passw0rd",
+    "roles": "C",
+    "depto": "TI"
+},
+{
+    "numero": "37",
+    "nombre": "Andrés",
+    "apPat": "Fernández",
+    "apMat": "López",
+    "telefono": "663-234-5678",
+    "email": "andres.fernandez@gmail.com",
+    "password": "password456",
+    "roles": "C",
+    "depto": "TI"
+},
+{
+    "numero": "38",
+    "nombre": "Lucía",
+    "apPat": "Rodríguez",
+    "apMat": "Gómez",
+    "telefono": "664-888-1234",
+    "email": "lucia.rodriguez@gmail.com",
+    "password": "mypwd",
+    "roles": "C",
+    "depto": "TI"
+},
+{
+    "numero": "39",
+    "nombre": "Roberto",
+    "apPat": "Soto",
+    "apMat": "Hernández",
+    "telefono": "663-654-9870",
+    "email": "roberto.soto@gmail.com",
+    "password": "secure123",
+    "roles": "C",
+    "depto": "TI"
+},
+{
+    "numero": "40",
+    "nombre": "Alejandra",
+    "apPat": "Martínez",
+    "apMat": "Sánchez",
+    "telefono": "664-987-9876",
+    "email": "alejandra.martinez@gmail.com",
+    "password": "12345",
+    "roles": "C",
+    "depto": "TI"
+},
+{
+    "numero": "41",
+    "nombre": "Laura",
+    "apPat": "Sánchez",
+    "apMat": "Pérez",
+    "telefono": "664-123-4567",
+    "email": "laura.sanchez@gmail.com",
+    "password": "password123",
+    "roles": "C",
+    "depto": "MKT"
+},
+{
+    "numero": "42",
+    "nombre": "Diego",
+    "apPat": "Gómez",
+    "apMat": "Martínez",
+    "telefono": "663-987-6543",
+    "email": "diego.gomez@gmail.com",
+    "password": "securepass",
+    "roles": "C",
+    "depto": "MKT"
+},
+{
+    "numero": "43",
+    "nombre": "María",
+    "apPat": "Martínez",
+    "apMat": "Soto",
+    "telefono": "664-555-5555",
+    "email": "maria.martinez@gmail.com",
+    "password": "mypassword",
+    "roles": "C",
+    "depto": "MKT"
+},
+{
+    "numero": "44",
+    "nombre": "Javier",
+    "apPat": "Pérez",
+    "apMat": "Hernández",
+    "telefono": "663-456-7890",
+    "email": "javier.perez@gmail.com",
+    "password": "pwd1234",
+    "roles": "C",
+    "depto": "MKT"
+},
+{
+    "numero": "45",
+    "nombre": "Sofía",
+    "apPat": "Hernández",
+    "apMat": "Rodríguez",
+    "telefono": "664-789-1234",
+    "email": "sofia.hernandez@gmail.com",
+    "password": "abc123",
+    "roles": "C",
+    "depto": "MKT"
+},
+{
+    "numero": "46",
+    "nombre": "Carlos",
+    "apPat": "Soto",
+    "apMat": "López",
+    "telefono": "664-321-6789",
+    "email": "carlos.soto@gmail.com",
+    "password": "passw0rd",
+    "roles": "C",
+    "depto": "MKT"
+},
+{
+    "numero": "47",
+    "nombre": "Andrés",
+    "apPat": "Fernández",
+    "apMat": "Gómez",
+    "telefono": "663-234-5678",
+    "email": "andres.fernandez@gmail.com",
+    "password": "password456",
+    "roles": "C",
+    "depto": "MKT"
+},
+{
+    "numero": "48",
+    "nombre": "Lucía",
+    "apPat": "López",
+    "apMat": "Sánchez",
+    "telefono": "664-888-1234",
+    "email": "lucia.lopez@gmail.com",
+    "password": "mypwd",
+    "roles": "C",
+    "depto": "MKT"
+},
+{
+    "numero": "49",
+    "nombre": "Roberto",
+    "apPat": "Martínez",
+    "apMat": "Rodríguez",
+    "telefono": "663-654-9870",
+    "email": "roberto.martinez@gmail.com",
+    "password": "secure123",
+    "roles": "C",
+    "depto": "MKT"
+},
+{
+    "numero": "50",
+    "nombre": "Alejandra",
+    "apPat": "Gómez",
+    "apMat": "Sánchez",
+    "telefono": "664-987-9876",
+    "email": "alejandra.gomez@gmail.com",
+    "password": "12345",
+    "roles": "C",
+    "depto": "MKT"
+},
+{
+    "numero": "51",
+    "nombre": "José",
+    "apPat": "Gómez",
+    "apMat": "López",
+    "telefono": "664-123-4567",
+    "email": "jose.gomez@gmail.com",
+    "password": "password123",
+    "roles": "C",
+    "depto": "LOG"
+},
+{
+    "numero": "52",
+    "nombre": "Ana",
+    "apPat": "Martínez",
+    "apMat": "Soto",
+    "telefono": "663-987-6543",
+    "email": "ana.martinez@gmail.com",
+    "password": "securepass",
+    "roles": "C",
+    "depto": "LOG"
+},
+{
+    "numero": "53",
+    "nombre": "Luis",
+    "apPat": "Soto",
+    "apMat": "Hernández",
+    "telefono": "664-555-5555",
+    "email": "luis.soto@gmail.com",
+    "password": "mypassword",
+    "roles": "C",
+    "depto": "LOG"
+},
+{
+    "numero": "54",
+    "nombre": "María",
+    "apPat": "Hernández",
+    "apMat": "Gómez",
+    "telefono": "663-456-7890",
+    "email": "maria.hernandez@gmail.com",
+    "password": "pwd1234",
+    "roles": "C",
+    "depto": "LOG"
+},
+{
+    "numero": "55",
+    "nombre": "Pedro",
+    "apPat": "Martínez",
+    "apMat": "Rodríguez",
+    "telefono": "664-789-1234",
+    "email": "pedro.martinez@gmail.com",
+    "password": "abc123",
+    "roles": "C",
+    "depto": "LOG"
+},
+{
+    "numero": "56",
+    "nombre": "Elena",
+    "apPat": "López",
+    "apMat": "Martínez",
+    "telefono": "664-321-6789",
+    "email": "elena.lopez@gmail.com",
+    "password": "passw0rd",
+    "roles": "C",
+    "depto": "LOG"
+},
+{
+    "numero": "57",
+    "nombre": "Carlos",
+    "apPat": "Rodríguez",
+    "apMat": "Soto",
+    "telefono": "663-234-5678",
+    "email": "carlos.rodriguez@gmail.com",
+    "password": "password456",
+    "roles": "C",
+    "depto": "LOG"
+},
+{
+    "numero": "58",
+    "nombre": "Sofía",
+    "apPat": "Gómez",
+    "apMat": "Hernández",
+    "telefono": "664-888-1234",
+    "email": "sofia.gomez@gmail.com",
+    "password": "mypwd",
+    "roles": "C",
+    "depto": "LOG"
+},
+{
+    "numero": "59",
+    "nombre": "Javier",
+    "apPat": "Hernández",
+    "apMat": "López",
+    "telefono": "663-654-9870",
+    "email": "javier.hernandez@gmail.com",
+    "password": "secure123",
+    "roles": "C",
+    "depto": "LOG"
+},
+{
+    "numero": "60",
+    "nombre": "Lorena",
+    "apPat": "Soto",
+    "apMat": "Gómez",
+    "telefono": "664-987-9876",
+    "email": "lorena.soto@gmail.com",
+    "password": "12345",
+    "roles": "C",
+    "depto": "LOG"
+},
+{
+    "numero": "61",
+    "nombre": "María",
+    "apPat": "Gómez",
+    "apMat": "López",
+    "telefono": "664-123-4567",
+    "email": "maria.gomez@gmail.com",
+    "password": "password123",
+    "roles": "C",
+    "depto": "CONT"
+},
+{
+    "numero": "62",
+    "nombre": "Carlos",
+    "apPat": "Hernández",
+    "apMat": "Soto",
+    "telefono": "663-987-6543",
+    "email": "carlos.hernandez@gmail.com",
+    "password": "securepass",
+    "roles": "C",
+    "depto": "CONT"
+},
+{
+    "numero": "63",
+    "nombre": "Laura",
+    "apPat": "Soto",
+    "apMat": "Martínez",
+    "telefono": "664-555-5555",
+    "email": "laura.soto@gmail.com",
+    "password": "mypassword",
+    "roles": "C",
+    "depto": "CONT"
+},
+{
+    "numero": "64",
+    "nombre": "Luis",
+    "apPat": "Martínez",
+    "apMat": "Fernández",
+    "telefono": "663-456-7890",
+    "email": "luis.martinez@gmail.com",
+    "password": "pwd1234",
+    "roles": "C",
+    "depto": "CONT"
+},
+{
+    "numero": "65",
+    "nombre": "Pedro",
+    "apPat": "Fernández",
+    "apMat": "Rodríguez",
+    "telefono": "664-789-1234",
+    "email": "pedro.fernandez@gmail.com",
+    "password": "abc123",
+    "roles": "C",
+    "depto": "CONT"
+},
+{
+    "numero": "66",
+    "nombre": "Sofía",
+    "apPat": "López",
+    "apMat": "Soto",
+    "telefono": "664-321-6789",
+    "email": "sofia.lopez@gmail.com",
+    "password": "passw0rd",
+    "roles": "C",
+    "depto": "CONT"
+},
+{
+    "numero": "67",
+    "nombre": "Diego",
+    "apPat": "Rodríguez",
+    "apMat": "López",
+    "telefono": "663-234-5678",
+    "email": "diego.rodriguez@gmail.com",
+    "password": "password456",
+    "roles": "C",
+    "depto": "CONT"
+},
+{
+    "numero": "68",
+    "nombre": "Ana",
+    "apPat": "Gómez",
+    "apMat": "Hernández",
+    "telefono": "664-888-1234",
+    "email": "ana.gomez@gmail.com",
+    "password": "mypwd",
+    "roles": "C",
+    "depto": "CONT"
+},
+{
+    "numero": "69",
+    "nombre": "Javier",
+    "apPat": "Hernández",
+    "apMat": "Martínez",
+    "telefono": "663-654-9870",
+    "email": "javier.hernandez@gmail.com",
+    "password": "secure123",
+    "roles": "C",
+    "depto": "CONT"
+},
+{
+    "numero": "70",
+    "nombre": "Marcela",
+    "apPat": "Soto",
+    "apMat": "Gómez",
+    "telefono": "664-987-9876",
+    "email": "marcela.soto@gmail.com",
+    "password": "12345",
+    "roles": "C",
+    "depto": "CONT"
+},
+{
+    "numero": "71",
+    "nombre": "Diego",
+    "apPat": "Martínez",
+    "apMat": "Sánchez",
+    "telefono": "664-123-4567",
+    "email": "diego.martinez@gmail.com",
+    "password": "password123",
+    "roles": "C",
+    "depto": "COMPR"
+},
+{
+    "numero": "72",
+    "nombre": "Lorena",
+    "apPat": "Hernández",
+    "apMat": "Gómez",
+    "telefono": "663-987-6543",
+    "email": "lorena.hernandez@gmail.com",
+    "password": "securepass",
+    "roles": "C",
+    "depto": "COMPR"
+},
+{
+    "numero": "73",
+    "nombre": "Sofía",
+    "apPat": "Gómez",
+    "apMat": "López",
+    "telefono": "664-555-5555",
+    "email": "sofia.gomez@gmail.com",
+    "password": "mypassword",
+    "roles": "C",
+    "depto": "COMPR"
+},
+{
+    "numero": "74",
+    "nombre": "Carlos",
+    "apPat": "Soto",
+    "apMat": "Martínez",
+    "telefono": "663-456-7890",
+    "email": "carlos.soto@gmail.com",
+    "password": "pwd1234",
+    "roles": "C",
+    "depto": "COMPR"
+},
+{
+    "numero": "75",
+    "nombre": "Ana",
+    "apPat": "López",
+    "apMat": "Sánchez",
+    "telefono": "664-789-1234",
+    "email": "ana.lopez@gmail.com",
+    "password": "abc123",
+    "roles": "C",
+    "depto": "COMPR"
+},
+{
+    "numero": "76",
+    "nombre": "María",
+    "apPat": "Sánchez",
+    "apMat": "Rodríguez",
+    "telefono": "664-321-6789",
+    "email": "maria.sanchez@gmail.com",
+    "password": "passw0rd",
+    "roles": "C",
+    "depto": "COMPR"
+},
+{
+    "numero": "77",
+    "nombre": "Javier",
+    "apPat": "Hernández",
+    "apMat": "Soto",
+    "telefono": "663-234-5678",
+    "email": "javier.hernandez@gmail.com",
+    "password": "password456",
+    "roles": "C",
+    "depto": "COMPR"
+},
+{
+    "numero": "78",
+    "nombre": "Luis",
+    "apPat": "Martínez",
+    "apMat": "Gómez",
+    "telefono": "664-888-1234",
+    "email": "luis.martinez@gmail.com",
+    "password": "mypwd",
+    "roles": "C",
+    "depto": "COMPR"
+},
+{
+    "numero": "79",
+    "nombre": "Roberto",
+    "apPat": "Gómez",
+    "apMat": "López",
+    "telefono": "663-654-9870",
+    "email": "roberto.gomez@gmail.com",
+    "password": "secure123",
+    "roles": "C",
+    "depto": "COMPR"
+},
+{
+    "numero": "80",
+    "nombre": "Marcela",
+    "apPat": "López",
+    "apMat": "Soto",
+    "telefono": "664-987-9876",
+    "email": "marcela.lopez@gmail.com",
+    "password": "12345",
+    "roles": "C",
+    "depto": "COMPR"
+},
+{
+    "numero": "81",
+    "nombre": "Carlos",
+    "apPat": "Martínez",
+    "apMat": "Sánchez",
+    "telefono": "664-123-4567",
+    "email": "carlos.martinez@gmail.com",
+    "password": "password123",
+    "roles": "C",
+    "depto": "INVS"
+},
+{
+    "numero": "82",
+    "nombre": "Sofía",
+    "apPat": "Soto",
+    "apMat": "Gómez",
+    "telefono": "663-987-6543",
+    "email": "sofia.soto@gmail.com",
+    "password": "securepass",
+    "roles": "C",
+    "depto": "INVS"
+},
+{
+    "numero": "83",
+    "nombre": "Luis",
+    "apPat": "Hernández",
+    "apMat": "López",
+    "telefono": "664-555-5555",
+    "email": "luis.hernandez@gmail.com",
+    "password": "mypassword",
+    "roles": "C",
+    "depto": "INVS"
+},
+{
+    "numero": "84",
+    "nombre": "Ana",
+    "apPat": "López",
+    "apMat": "Martínez",
+    "telefono": "663-456-7890",
+    "email": "ana.lopez@gmail.com",
+    "password": "pwd1234",
+    "roles": "C",
+    "depto": "INVS"
+},
+{
+    "numero": "85",
+    "nombre": "María",
+    "apPat": "Gómez",
+    "apMat": "Soto",
+    "telefono": "664-789-1234",
+    "email": "maria.gomez@gmail.com",
+    "password": "abc123",
+    "roles": "C",
+    "depto": "INVS"
+},
+{
+    "numero": "86",
+    "nombre": "Roberto",
+    "apPat": "Sánchez",
+    "apMat": "Hernández",
+    "telefono": "664-321-6789",
+    "email": "roberto.sanchez@gmail.com",
+    "password": "passw0rd",
+    "roles": "C",
+    "depto": "INVS"
+},
+{
+    "numero": "87",
+    "nombre": "Diego",
+    "apPat": "Hernández",
+    "apMat": "López",
+    "telefono": "663-234-5678",
+    "email": "diego.hernandez@gmail.com",
+    "password": "password456",
+    "roles": "C",
+    "depto": "INVS"
+},
+{
+    "numero": "88",
+    "nombre": "Javier",
+    "apPat": "López",
+    "apMat": "Soto",
+    "telefono": "664-888-1234",
+    "email": "javier.lopez@gmail.com",
+    "password": "mypwd",
+    "roles": "C",
+    "depto": "INVS"
+},
+{
+    "numero": "89",
+    "nombre": "Marcela",
+    "apPat": "Martínez",
+    "apMat": "Gómez",
+    "telefono": "663-654-9870",
+    "email": "marcela.martinez@gmail.com",
+    "password": "secure123",
+    "roles": "C",
+    "depto": "INVS"
+},
+{
+    "numero": "90",
+    "nombre": "Lorena",
+    "apPat": "Soto",
+    "apMat": "Sánchez",
+    "telefono": "664-987-9876",
+    "email": "lorena.soto@gmail.com",
+    "password": "12345",
+    "roles": "C",
+    "depto": "INVS"
+},
+{
+    "numero": "91",
+    "nombre": "Sofía",
+    "apPat": "Hernández",
+    "apMat": "Martínez",
+    "telefono": "664-123-4567",
+    "email": "sofia.hernandez@gmail.com",
+    "password": "password123",
+    "roles": "C",
+    "depto": "SST"
+},
+{
+    "numero": "92",
+    "nombre": "Carlos",
+    "apPat": "Martínez",
+    "apMat": "López",
+    "telefono": "663-987-6543",
+    "email": "carlos.martinez@gmail.com",
+    "password": "securepass",
+    "roles": "C",
+    "depto": "SST"
+},
+{
+    "numero": "93",
+    "nombre": "Diego",
+    "apPat": "Soto",
+    "apMat": "Sánchez",
+    "telefono": "664-555-5555",
+    "email": "diego.soto@gmail.com",
+    "password": "mypassword",
+    "roles": "C",
+    "depto": "SST"
+},
+{
+    "numero": "94",
+    "nombre": "Laura",
+    "apPat": "López",
+    "apMat": "Hernández",
+    "telefono": "663-456-7890",
+    "email": "laura.lopez@gmail.com",
+    "password": "pwd1234",
+    "roles": "C",
+    "depto": "SST"
+},
+{
+    "numero": "95",
+    "nombre": "Ana",
+    "apPat": "Martínez",
+    "apMat": "Gómez",
+    "telefono": "664-789-1234",
+    "email": "ana.martinez@gmail.com",
+    "password": "abc123",
+    "roles": "C",
+    "depto": "SST"
+},
+{
+    "numero": "96",
+    "nombre": "María",
+    "apPat": "Gómez",
+    "apMat": "Soto",
+    "telefono": "664-321-6789",
+    "email": "maria.gomez@gmail.com",
+    "password": "passw0rd",
+    "roles": "C",
+    "depto": "SST"
+},
+{
+    "numero": "97",
+    "nombre": "Javier",
+    "apPat": "Sánchez",
+    "apMat": "Martínez",
+    "telefono": "663-234-5678",
+    "email": "javier.sanchez@gmail.com",
+    "password": "password456",
+    "roles": "C",
+    "depto": "SST"
+},
+{
+    "numero": "98",
+    "nombre": "Luis",
+    "apPat": "Hernández",
+    "apMat": "Soto",
+    "telefono": "664-888-1234",
+    "email": "luis.hernandez@gmail.com",
+    "password": "mypwd",
+    "roles": "C",
+    "depto": "SST"
+},
+{
+    "numero": "99",
+    "nombre": "Roberto",
+    "apPat": "Soto",
+    "apMat": "López",
+    "telefono": "663-654-9870",
+    "email": "roberto.soto@gmail.com",
+    "password": "secure123",
+    "roles": "C",
+    "depto": "SST"
+},
+{
+    "numero": "100",
+    "nombre": "Marcela",
+    "apPat": "Martínez",
+    "apMat": "Hernández",
+    "telefono": "664-987-9876",
+    "email": "marcela.martinez@gmail.com",
+    "password": "12345",
+    "roles": "C",
+    "depto": "SST"
+},
+{
+    "numero": "101",
+    "nombre": "Bicho",
+    "apPat": "Portugal",
+    "apMat": "Prime",
+    "telefono": "555-987-9876",
+    "email": "bati.bicho@gmail.com",
+    "password": "CR7",
+    "roles": "A",
+    "depto": "ADMIN"
+},
+{
+    "numero": "102",
+    "nombre": "Fernanda",
+    "apPat": "Diaz",
+    "apMat": "Prime",
+    "telefono": "555-987-9876",
+    "email": "fer.bicho@gmail.com",
+    "password": "michi",
+    "roles": "A",
+    "depto": "ADMIN"
+},
+{
+    "numero": "103",
+    "nombre": "Fernando",
+    "apPat": "Hernandez",
+    "apMat": "Prime",
+    "telefono": "555-987-9876",
+    "email": "fernando.bicho@gmail.com",
+    "password": "voli",
+    "roles": "A",
+    "depto": "ADMIN"
+},
+{
+    "numero": "104",
+    "nombre": "Bicho",
+    "apPat": "Portugal",
+    "apMat": "Prime",
+    "telefono": "664-679-57-41",
+    "email": "bati.bicho@gmail.com",
+    "password": "CR7",
+    "roles": "A",
+    "depto": "ADMIN"
+},
+{
+    "numero": "105",
+    "nombre": "alma",
+    "apPat": "diaz",
+    "apMat": "dominguez",
+    "telefono": "664 171 6655",
+    "email": "diazalmajuanita@gmail.com",
+    "password": "Papalote123!",
+    "roles": "C",
+    "depto": "MKT"
+},
+{
+    "numero": "106",
+    "nombre": "alma",
+    "apPat": "diaz",
+    "apMat": "dominguez",
+    "telefono": "664-171-6655",
+    "email": "diazalmajuanita@gmail.com",
+    "password": "Murcielago123",
+    "roles": "A",
+    "depto": "LOG"
+}
+]
+
+}
+,{
+    "type": "table",
+    "name": "ubicacion",
+    "database": "lockers",
+    "data": 
+[
+{
+    "codigo": "ALM",
+    "area": "Almacenes",
+    "referencia": null
+},
+{
+    "codigo": "INGEN",
+    "area": "Áreas de ingeniería",
+    "referencia": null
+},
+{
+    "codigo": "LOGIS",
+    "area": "Áreas de logística y envío",
+    "referencia": null
+},
+{
+    "codigo": "MANT",
+    "area": "Áreas de mantenimiento",
+    "referencia": null
+},
+{
+    "codigo": "OFADM",
+    "area": "Oficinas administrativas",
+    "referencia": null
+},
+{
+    "codigo": "PROD",
+    "area": "Áreas de producción",
+    "referencia": null
+},
+{
+    "codigo": "SEGU",
+    "area": "Áreas de seguridad",
+    "referencia": null
+},
+{
+    "codigo": "SERV",
+    "area": "Áreas de servicios.",
+    "referencia": null
+},
+{
+    "codigo": "TRANS",
+    "area": "Area de Transportes",
+    "referencia": null
+}
+]
+
+}
+]
